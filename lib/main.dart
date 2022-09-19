@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My Day',
       theme: ThemeData.dark().copyWith(
-        primaryColor: Colors.white,
+        primaryColor: Colors.purple,
       ),
       home: LoginPage(),
     );
